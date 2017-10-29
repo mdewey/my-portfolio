@@ -1,0 +1,74 @@
+$main-color: #03F8FD;
+$bright-main: #8FC6EF;
+$dull-main: #2B3948;
+$dark-secondary:#6F8199;
+$light-secondary: #B1C5C8;
+$background-color: $dark-secondary;
+$hero-img: url('images/hero.jpg');
+$face-pic:url('images/Mark-2.jpg');
+body {
+    background: $background-color;
+}
+
+.App {
+    width: 100%;
+}
+
+.background-image-helper {
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+}
+
+.hero {
+    @extend .background-image-helper;
+    background-image: $hero-img;
+    height: 16em;
+}
+
+.face-pic {
+    height: 7em;
+    width: 7em;
+    margin: -4em;
+    border: 0.5em $dark-secondary solid;
+    border-radius: 10em;
+    background-image: $face-pic;
+    @extend .background-image-helper;
+}
+
+.section {
+    background-color: $light-secondary;
+}
+
+.sub-section {
+    background-color: $bright-main;
+    margin:1em;
+    padding:1em;
+}
+
+.contact-info.sub-section{
+  text-align:   center;
+}
+
+.title-block {
+    display: flex;
+    justify-content: space-evenly;
+    h2 {}
+}
+
+.body {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: $dull-main;
+        background-color: $main-color;
+        h4{
+          text-align: center;
+        }
+    }
+}
+
+.btn{
+  
+}
