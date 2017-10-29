@@ -1,3 +1,7 @@
+Inspriation: http://www.webonise.co.uk/
+colors: https://coolors.co/2bdf9e-54bb8f-e6339c-87896d-30461b
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
