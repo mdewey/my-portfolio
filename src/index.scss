@@ -4,10 +4,12 @@ $dull-main: #2B3948;
 $dark-secondary:#6F8199;
 $light-secondary: #B1C5C8;
 $background-color: $dark-secondary;
-$hero-img: url('images/hero.jpg');
-$face-pic:url('images/Mark-2.jpg');
+$hero-img: url('/images/hero.jpg');
+$face-pic:url('/images/Mark-2.jpg');
 body {
     background: $background-color;
+    margin: 0;
+    padding: 0;
 }
 
 .App {
