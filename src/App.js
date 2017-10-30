@@ -16,14 +16,14 @@ class App extends Component {
           <header>
             <section className="title-block">
               <div className="face-pic"></div>
-                <h2>Mark Dewey</h2>
-                </section>
+              <h2>Mark Dewey</h2>
+            </section>
             <h4>Software Engineer &amp; Instructor</h4>
           </header>
 
           <section className="contact-info sub-section">
-           Just looking to contact me?<br/>
-           <a href="mailto:mark.t.dewey@gmail.com" class="btn">mark.t.dewey@gmail.com</a>
+            Just looking to contact me?<br/>
+            <a href="mailto:mark.t.dewey@gmail.com" className="btn">mark.t.dewey@gmail.com</a>
           </section>
 
           <section className="section">
@@ -34,10 +34,14 @@ class App extends Component {
           </section>
 
           <section className="section">
-            <h2>Mission</h2>
-            <p>
-              some text goes here.........
-            </p>
+            <h2>Core Values</h2>
+            <ul>
+              <li>Education</li>
+              <li>Problem Solving</li>
+              <li>Design</li>
+              <li>Adaptation</li>
+              <li>Organization</li>
+            </ul>
           </section>
 
           <section className="section">
