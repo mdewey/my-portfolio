@@ -28,11 +28,11 @@ body {
 
 .face-pic {
     height: 5.5em;
-    width: 5.5em;
+    width: 6.5em;
     margin: -3em;
-    border: 0.5em $dark-secondary solid;
-    border-radius: 10em;
+    border: 0.25em $dark-secondary solid;
     background-image: $face-pic;
+    border-radius: 1px;
     @extend .background-image-helper;
 }
 
