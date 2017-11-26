@@ -22,15 +22,15 @@ class App extends Component {
           </header>
 
           <section className="contact-info sub-section">
-            <a href="#contact" className="contact-button">Just looking to contact me?</a>
+            <a href="#contact" className="contact-button"><i class="material-icons">info</i>Just looking to contact me?</a>
           </section>
 
-          <section className="current-status-section">
-            <div className="current-status-header">Current Status:</div>
+          <section className="current-status-section sub-section">
+            <em className="current-status-header">Current Status:</em>
             <div className="current-status-text">Rising and Grinding </div>
           </section>
 
-          <section className="projects-section">
+          <section className="projects-section section">
             <h2>Current Notable Projects</h2>
             <h4>view all on <i class="devicon-github-plain-wordmark colored"></i></h4>
             <section className="projects-list">
@@ -46,7 +46,6 @@ class App extends Component {
             <h2>Core Values</h2>
             <ul>
               <li>Education</li>
-              <li>Problem Solving</li>
               <li>Design</li>
               <li>Adaptation</li>
               <li>Organization</li>
@@ -56,9 +55,9 @@ class App extends Component {
           <section className="section">
             <header>Top Skills</header>
             <section className="skills-list">
-               <section>languages</section>
-               <section>Frameworks</section>
-               <section>concepts</section>
+               <section className="sub-section">languages</section>
+               <section className="sub-section">Frameworks</section>
+               <section className="sub-section">concepts</section>
             </section>
             <footer>
               view full list of skills on my <a target="_blank" rel="noopener noreferrer" href="https://mdewey.github.io/resume/">resume</a>
@@ -81,9 +80,10 @@ class App extends Component {
             <ul>
               <li>Email</li>
               <li>Phone</li>
-              <li>Twitter</li>
               <li>Linkedin</li>
               <li>Twitter</li>
+              <li>Slack</li>
+              <li>Full resume</li>
             </ul>
           </section>
 

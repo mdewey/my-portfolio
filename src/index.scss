@@ -10,6 +10,7 @@ body {
     background: $background-color;
     margin: 0;
     padding: 0;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .App {
@@ -52,6 +53,14 @@ body {
   text-align:   center;
 }
 
+.contact-button{
+    width: 100%;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
 .title-block {
     display: flex;
     justify-content: space-evenly;
@@ -80,3 +89,14 @@ body {
 
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+.current-status-header{
+    font-size: 0.8em;
+}
+
+.current-status-text{
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+}
