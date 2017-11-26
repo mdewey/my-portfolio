@@ -5,7 +5,7 @@ $dark-secondary:#6F8199;
 $light-secondary: #B1C5C8;
 $background-color: $dark-secondary;
 $hero-img: url('/images/hero.jpg');
-$face-pic:url('/images/Mark-2.jpg');
+$face-pic:url('/images/Mark-3.jpg');
 body {
     background: $background-color;
     margin: 0;
@@ -29,9 +29,9 @@ body {
 }
 
 .face-pic {
-    height: 5.5em;
-    width: 6.5em;
-    margin: -3em;
+    height: 7.5em;
+    width: 7.5em;
+    margin: -4em;
     border: 0.25em $dark-secondary solid;
     background-image: $face-pic;
     border-radius: 1px;
@@ -74,3 +74,9 @@ body {
 .btn{
 
 }
+
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }

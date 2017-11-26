@@ -1,5 +1,5 @@
 // packages
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 // components css
 import './index.scss';
 
@@ -18,20 +18,29 @@ class App extends Component {
               <div className="face-pic"></div>
               <h2>Mark Dewey</h2>
             </section>
-            <h4>Software Engineer &amp; Instructor</h4>
+            <h4>- Developer - Instructor - Explorer -</h4>
           </header>
 
           <section className="contact-info sub-section">
-            Just looking to contact me?<br/>
-            <a href="mailto:mark.t.dewey@gmail.com" className="btn">mark.t.dewey@gmail.com</a>
+            <a href="#contact" className="contact-button">Just looking to contact me?</a>
           </section>
 
-          <section className="section">
-            <h2>About me</h2>
-            <p>
-              some text goes here.........
-            </p>
+          <section className="current-status-section">
+            <div className="current-status-header">Current Status:</div>
+            <div className="current-status-text">Rising and Grinding </div>
           </section>
+
+          <section className="projects-section">
+            <h2>Current Notable Projects</h2>
+            <h4>view all on <i class="devicon-github-plain-wordmark colored"></i></h4>
+            <section className="projects-list">
+              <div className="project">St Pete.Lease</div>
+              <div className="project">student-list</div>
+              <div className="project">PathfinderTools</div>
+              <div className="project">Trainable Bot</div>
+            </section>
+          </section>
+
 
           <section className="section">
             <h2>Core Values</h2>
@@ -45,24 +54,37 @@ class App extends Component {
           </section>
 
           <section className="section">
-            <h2>Skills</h2>
-            <p>
-              some text goes here.........
-            </p>
+            <header>Top Skills</header>
+            <section className="skills-list">
+               <section>languages</section>
+               <section>Frameworks</section>
+               <section>concepts</section>
+            </section>
+            <footer>
+              view full list of skills on my <a target="_blank" rel="noopener noreferrer" href="https://mdewey.github.io/resume/">resume</a>
+            </footer>
           </section>
 
           <section className="section">
-            <h2>Interests</h2>
-            <p>
-              some text goes here.........
-            </p>
+            <h2>Current Hobbies</h2>
+            <ul>
+              <li>Ultimate Frisbee</li>
+              <li>Learning Music</li>
+              <li>Juggling</li>
+              <li>Fitness</li>
+              <li>Video &amp; Table top Gaming</li>
+            </ul>
           </section>
 
-          <section className="section">
+          <section id="contact" className="section">
             <h2>Contact</h2>
-            <p>
-              some text goes here.........
-            </p>
+            <ul>
+              <li>Email</li>
+              <li>Phone</li>
+              <li>Twitter</li>
+              <li>Linkedin</li>
+              <li>Twitter</li>
+            </ul>
           </section>
 
         </section>
