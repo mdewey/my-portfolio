@@ -6,6 +6,9 @@ $light-secondary: #B1C5C8;
 $background-color: $dark-secondary;
 $hero-img: url('/images/hero.jpg');
 $face-pic:url('/images/Mark-3.jpg');
+
+$link-color:pink;;
+
 body {
     background: $background-color;
     margin: 0;
@@ -20,7 +23,7 @@ body {
 .background-image-helper {
     background-repeat: no-repeat;
     background-position: 0% 0%;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 .hero {
@@ -58,8 +61,11 @@ body {
     font-size: 1.2em;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     text-decoration: none;
+    i{
+        padding-right:0.5em;
+    }
 }
 .title-block {
     display: flex;
@@ -99,4 +105,70 @@ body {
     font-size: 1.2em;
     text-align: center;
     width: 100%;
+}
+
+.projects-section {
+    margin: 1em;
+    header{
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-left: 2em;
+    }
+
+    .projects-list{
+        display: flex;
+        flex-wrap: wrap;
+        .project{
+            flex-basis: 40%;
+            height: 10em;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            margin:1em;
+            div{
+                background-color: white;
+               width:100%;
+               text-align: right;
+               padding: 0.5em; 
+            }
+        }
+        .st-pete-lease{
+            background-image: url('/images/st.pete.lease.png');
+            background-size: 100% 100%;
+        }
+        .student-list{
+            background-image: url('/images/demo.day.png');
+            background-size: 100% 100%;
+        }
+        .pathfinder{
+            background-image: url('/images/pathfinder.png');
+            background-size: 100% 100%;
+        }
+        .trainable-bot{
+            background-image: url('/images/bot.png');
+            background-size: 100% 100%;
+        }
+    }
+
+    footer{
+        display: flex;
+        justify-content: flex-end;
+        background-color: aqua;
+        height: 3em;
+        color:$link-color;
+        padding-right:2em;
+        a{
+            text-decoration: none;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+       nav {
+            text-transform: uppercase;
+            text-decoration: none;
+            i{
+                padding-right:0.25em;
+            }
+        }
+    }
 }
