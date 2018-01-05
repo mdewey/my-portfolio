@@ -44,7 +44,41 @@ body {
 
 .section {
     background-color: $light-secondary;
+    margin: 1em;
+    header{
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-left: 2em;
+    }
+    h4{
+        margin:1em;
+    }
+    ul{
+        padding-bottom:1em;
+    }
+    footer{
+        display: flex;
+        justify-content: flex-end;
+        background-color: aqua;
+        height: 3em;
+        color:$link-color;
+        padding-right:2em;
+        a{
+            text-decoration: none;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+       nav,a {
+            text-transform: uppercase;
+            text-decoration: none;
+            i{
+                padding-right:0.25em;
+            }
+        }
+    }
 }
+
 
 .sub-section {
     background-color: $bright-main;
@@ -108,7 +142,6 @@ body {
 }
 
 .projects-section {
-    margin: 1em;
     header{
         flex-direction: row;
         justify-content: flex-start;
@@ -126,7 +159,7 @@ body {
             align-items: flex-end;
             margin:1em;
             div{
-                background-color: white;
+                background: rgba(200, 200, 200, 0.7);
                width:100%;
                text-align: right;
                padding: 0.5em; 
@@ -149,26 +182,8 @@ body {
             background-size: 100% 100%;
         }
     }
+}
 
-    footer{
-        display: flex;
-        justify-content: flex-end;
-        background-color: aqua;
-        height: 3em;
-        color:$link-color;
-        padding-right:2em;
-        a{
-            text-decoration: none;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-        }
-       nav {
-            text-transform: uppercase;
-            text-decoration: none;
-            i{
-                padding-right:0.25em;
-            }
-        }
-    }
+.core-values{
+    
 }

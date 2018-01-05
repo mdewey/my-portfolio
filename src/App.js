@@ -36,11 +36,25 @@ class App extends Component {
             </header>
             <section className="projects-list">
               <div className="project st-pete-lease">
-                 <div><a href="#">St Pete.Lease</a></div>
+                <div>
+                  <a href="#">St Pete.Lease</a>
+                </div>
               </div>
-              <div className="project student-list"><div><a href="#">Tampa Bay Demo Day</a></div></div>
-              <div className="project pathfinder"><div><a href="#">PathfinderTools</a></div></div>
-              <div className="project trainable-bot"><div><a href="#">Trainable Bot</a></div></div>
+              <div className="project student-list">
+                <div>
+                  <a href="#">Tampa Bay Demo Day</a>
+                </div>
+              </div>
+              <div className="project pathfinder">
+                <div>
+                  <a href="#">PathfinderTools</a>
+                </div>
+              </div>
+              <div className="project trainable-bot">
+                <div>
+                  <a href="#">Trainable Bot</a>
+                </div>
+              </div>
             </section>
             <footer>
               <a
@@ -55,34 +69,44 @@ class App extends Component {
             </footer>
           </section>
 
-          <section className="section">
-            <h2>Core Values</h2>
+          <section className="section core-values">
+            <header>
+              <h2>Core Values</h2>
+            </header>
+            <h4>Theses are the princples that I bring to my every day life, in and outside
+              of work.</h4>
             <ul>
-              <li>Education</li>
-              <li>Design</li>
-              <li>Adaptation</li>
-              <li>Organization</li>
+              <li>Always be learning.</li>
+              <li>Design before you build.</li>
+              <li>Improvise. Adapt. Overcome.</li>
+              <li>Organize the Choas.</li>
             </ul>
           </section>
 
           <section className="section">
-            <header>Top Skills</header>
+            <header>
+              <h2>Top Skills</h2>
+            </header>
             <section className="skills-list">
               <section className="sub-section">languages</section>
               <section className="sub-section">Frameworks</section>
               <section className="sub-section">concepts</section>
             </section>
             <footer>
-              view full list of skills on my
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://mdewey.github.io/resume/">resume</a>
+                href="https://mdewey.github.io/resume/">
+                <i class="material-icons">book</i>resume</a>
             </footer>
           </section>
 
           <section className="section">
-            <h2>Current Hobbies</h2>
+            <header>
+              <h2>Current Hobbies</h2>
+            </header>
+            <h4>I believe in good, healty work-life balance. While not behind a keyboard I
+             enjoy the outdoors as much as possible. My current hobbies include:</h4>
             <ul>
               <li>Ultimate Frisbee</li>
               <li>Learning Music</li>
@@ -93,7 +117,9 @@ class App extends Component {
           </section>
 
           <section id="contact" className="section">
-            <h2>Contact</h2>
+            <header>
+              <h2>Contact</h2>
+            </header>
             <ul>
               <li>Email</li>
               <li>Phone</li>
