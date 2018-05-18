@@ -35,9 +35,9 @@ class App extends Component {
               <h2>Current Notable Projects</h2>
             </header>
             <section className="projects-list">
-              <div className="project st-pete-lease">
+              <div className="project serverless-demo">
                 <div>
-                  <a href="#">St Pete.Lease</a>
+                  <a href="#">Serverless Demo</a>
                 </div>
               </div>
               <div className="project student-list">
