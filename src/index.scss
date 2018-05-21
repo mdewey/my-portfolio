@@ -198,7 +198,22 @@ body {
 }
 
 .core-values{
-    
+  ul{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding:1em 0;
+      li{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          i{
+              font-size:2em;
+          }
+      }
+  }  
 }
 
 .word-cloud{

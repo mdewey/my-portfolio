@@ -76,10 +76,10 @@ class App extends Component {
             <h4>Theses are the princples that I bring to my every day life, in and outside
               of work.</h4>
             <ul>
-              <li>Always be learning.</li>
-              <li>Design before you build.</li>
-              <li>Improvise. Adapt. Overcome.</li>
-              <li>Organize the Choas.</li>
+              <li><i class="material-icons fa-rotate-180">wb_incandescent</i><span>Always be learning.</span></li>
+              <li><i class="material-icons">rate_review</i><span>Design before you build.</span></li>
+              <li><i class="material-icons">sync</i><span>Improvise. Adapt. Overcome.</span></li>
+              <li><i class="material-icons">all_inclusive</i><span>Organize the Chaos.</span></li>
             </ul>
           </section>
 
