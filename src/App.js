@@ -89,7 +89,7 @@ class App extends Component {
             </header>
             <section className="current-skills-list">
               <section className="current-skill dot-net">
-                <i class="devicon-csharp-plain colored"></i>
+              <i class="devicon-dot-net-plain colored"></i>
               </section>
               <section className="current-skill node-js">
                 <i class="devicon-nodejs-plain colored"></i>
@@ -98,8 +98,7 @@ class App extends Component {
                 <i class="devicon-react-original colored"></i>
               </section>
               <section className="current-skill">
-              <i class="devicon-amazonwebservices-original colored"></i>
-
+              <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
               </section>
             </section>
             <footer>

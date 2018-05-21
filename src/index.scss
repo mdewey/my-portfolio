@@ -245,12 +245,13 @@ body {
 
 .current-skills-list{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    height: 8em;
-   
+    align-items: center;   
     .current-skill{
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
         i{
             font-size: 5em;
         }
@@ -258,6 +259,9 @@ body {
     @media screen and (min-width: 900px) {
         height: 10em;
         justify-content: center;
+        .current-skill{
+            flex-basis: 0;
+        }
         i{
             margin:0.5em;
             padding:1em 0em;
