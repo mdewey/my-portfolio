@@ -205,7 +205,7 @@ class App extends Component {
             </footer>
           </section>
 
-          <section className="section">
+          {/* <section className="section">
             <header>
               <h2>Current Hobbies</h2>
             </header>
@@ -218,7 +218,7 @@ class App extends Component {
               <li>Juggling</li>
               <li>Video &amp; Table top Gaming</li>
             </ul>
-          </section>
+          </section> */}
 
           <section id="contact" className="section contact-me">
             <header>
