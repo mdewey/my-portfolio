@@ -257,17 +257,17 @@ class App extends Component {
             </ul>
           </section>
 
-          <section id="contact" className="section">
+          <section id="contact" className="section contact-me">
             <header>
-              <h2>Contact</h2>
+              <h2>Find me!</h2>
             </header>
             <ul>
-              <li><i class="material-icons">email</i>Email</li>
-              <li><i class="material-icons">phone</i>Phone</li>
-              <li><i class="fab fa-linkedin-in"></i>Linkedin</li>
-              <li><i class="fab fa-twitter"></i>Twitter</li>
-              <li><i class="fab fa-slack"></i>Slack</li>
-              <li><i className="material-icons">book</i> resume</li>
+              <li><a href="mailto:mark.t.dewey@gmail.com"><i class="material-icons">email</i>mark.t.dewey@gmail.com</a></li>
+              <li><a href="tel:4123862294"><i class="material-icons">phone</i>(412) 368-2294</a></li>
+              <li><a href="https://www.linkedin.com/in/mark-dewey-ba78bb3a" target="_blank" rel="noopener noreferrer" ><i class="fab fa-linkedin-in"></i>Linkedin</a></li>
+              <li><a href="https://twitter.com/juggler2009" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i>@juggler2009</a></li>
+              <li><a href="slack://user?team=T03QUJQ7L&id=U09LRHQQ3" target="_blank" rel="noopener noreferrer"><i class="fab fa-slack"></i>@dewseph</a></li>
+              <li><a  href="https://mdewey.github.io/resume/" target="_blank" rel="noopener noreferrer"><i className="material-icons">book</i>full resume</a></li>
             </ul>
           </section>
 
