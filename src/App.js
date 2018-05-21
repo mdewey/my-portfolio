@@ -227,32 +227,32 @@ class App extends Component {
             <ul>
               <li>
                 <a href="mailto:mark.t.dewey@gmail.com">
-                  <i class="material-icons">email</i>mark.t.dewey@gmail.com</a>
+                  <i className="material-icons">email</i>mark.t.dewey@gmail.com</a>
               </li>
               <li>
                 <a href="tel:4123862294">
-                  <i class="material-icons">phone</i>(412) 368-2294</a>
+                  <i className="material-icons">phone</i>(412) 368-2294</a>
               </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/mark-dewey-ba78bb3a"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <i class="fab fa-linkedin-in"></i>Linkedin</a>
+                  <i className="fab fa-linkedin-in"></i>Linkedin</a>
               </li>
               <li>
                 <a
                   href="https://twitter.com/juggler2009"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <i class="fab fa-twitter"></i>@juggler2009</a>
+                  <i className="fab fa-twitter"></i>@juggler2009</a>
               </li>
               <li>
                 <a
                   href="slack://user?team=T03QUJQ7L&id=U09LRHQQ3"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <i class="fab fa-slack"></i>@dewseph</a>
+                  <i className="fab fa-slack"></i>@dewseph</a>
               </li>
               <li>
                 <a
