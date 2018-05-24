@@ -16,7 +16,9 @@ class App extends Component {
           <header>
             <section className="title-block">
               <div className="face-pic"></div>
-              <h2>Mark Dewey</h2>
+              <div>
+                <h2>Mark Dewey</h2>
+              </div>
             </section>
             <h4>- Developer - Instructor - Explorer -</h4>
           </header>
@@ -27,7 +29,7 @@ class App extends Component {
 
           <section className="current-status-section sub-section">
             <em className="current-status-header">Current Status:</em>
-            <div className="current-status-text">Something something motivational.</div>
+            <div className="current-status-text">Currently herding cats.</div>
           </section>
 
           <section className="projects-section section">
@@ -76,10 +78,22 @@ class App extends Component {
             <h4>Theses are the princples that I bring to my every day life, in and outside
               of work.</h4>
             <ul>
-              <li><i class="material-icons fa-rotate-180">wb_incandescent</i><span>Always be learning.</span></li>
-              <li><i class="material-icons">rate_review</i><span>Design before you build.</span></li>
-              <li><i class="material-icons">sync</i><span>Improvise. Adapt. Overcome.</span></li>
-              <li><i class="material-icons">all_inclusive</i><span>Organize the Chaos.</span></li>
+              <li>
+                <i class="material-icons fa-rotate-180">wb_incandescent</i>
+                <span>Always be learning.</span>
+              </li>
+              <li>
+                <i class="material-icons">rate_review</i>
+                <span>Design before you build.</span>
+              </li>
+              <li>
+                <i class="material-icons">sync</i>
+                <span>Improvise. Adapt. Overcome.</span>
+              </li>
+              <li>
+                <i class="material-icons">all_inclusive</i>
+                <span>Organize the Chaos.</span>
+              </li>
             </ul>
           </section>
 
@@ -89,16 +103,16 @@ class App extends Component {
             </header>
             <section className="current-skills-list">
               <section className="current-skill dot-net">
-              <i class="devicon-dot-net-plain colored"></i>
+                <i class="devicon-dot-net-plain-wordmark colored"></i>
               </section>
               <section className="current-skill node-js">
                 <i class="devicon-nodejs-plain colored"></i>
               </section>
               <section className="current-skill">
-                <i class="devicon-react-original colored"></i>
+              <i class="devicon-react-original-wordmark colored"></i>
               </section>
               <section className="current-skill">
-              <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
               </section>
             </section>
             <footer>
@@ -196,13 +210,6 @@ class App extends Component {
               <span>Data Structures</span>
 
             </section>
-            <footer>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://mdewey.github.io/resume/">
-                <i className="material-icons">book</i>view full resume</a>
-            </footer>
           </section>
 
           {/* <section className="section">
@@ -222,7 +229,7 @@ class App extends Component {
 
           <section id="contact" className="section contact-me">
             <header>
-              <h2>Find me!</h2>
+              <h2>Interested? Let's Chat!</h2>
             </header>
             <ul>
               <li>
