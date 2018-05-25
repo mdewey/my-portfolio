@@ -24,7 +24,7 @@ class App extends Component {
           </header>
           <section className="contact-info sub-section">
             <a href="#contact" className="contact-button">
-              <i className="material-icons">info</i>Just looking to contact me?</a>
+              Just looking to contact me?</a>
           </section>
 
           <section className="current-status-section sub-section">
@@ -64,8 +64,7 @@ class App extends Component {
                 target="_blank"
                 rel="noopener noreferrer">
                 <nav>
-                  <i className="devicon-github-plain colored"></i>
-                  view all projects github
+                  view all projects on github
                 </nav>
               </a>
             </footer>
@@ -109,7 +108,7 @@ class App extends Component {
                 <i class="devicon-nodejs-plain colored"></i>
               </section>
               <section className="current-skill">
-              <i class="devicon-react-original-wordmark colored"></i>
+                <i class="devicon-react-original-wordmark colored"></i>
               </section>
               <section className="current-skill">
                 <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
@@ -120,7 +119,7 @@ class App extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://mdewey.github.io/resume/">
-                <i className="material-icons">book</i>view full resume</a>
+                view full resume</a>
             </footer>
           </section>
 
@@ -234,39 +233,46 @@ class App extends Component {
             <ul>
               <li>
                 <a href="mailto:mark.t.dewey@gmail.com">
-                  <i className="material-icons">email</i>mark.t.dewey@gmail.com</a>
+                  <i className="material-icons">email</i>
+                  <span>mark.t.dewey@gmail.com</span>
+                </a>
               </li>
               <li>
                 <a href="tel:4123862294">
-                  <i className="material-icons">phone</i>(412) 368-2294</a>
+                  <i className="material-icons">phone</i>
+                  <span>(412) 368-2294</span></a>
               </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/mark-dewey-ba78bb3a"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <i className="fab fa-linkedin-in"></i>Linkedin</a>
+                  <i className="fab fa-linkedin-in"></i>
+                  <span>Linkedin</span></a>
               </li>
               <li>
                 <a
                   href="https://twitter.com/juggler2009"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <i className="fab fa-twitter"></i>@juggler2009</a>
+                  <i className="fab fa-twitter"></i>
+                  <span>@juggler2009</span></a>
               </li>
               <li>
                 <a
                   href="slack://user?team=T03QUJQ7L&id=U09LRHQQ3"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <i className="fab fa-slack"></i>@dewseph</a>
+                  <i className="fab fa-slack"></i>
+                  <span>@dewseph</span></a>
               </li>
               <li>
                 <a
                   href="https://mdewey.github.io/resume/"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <i className="material-icons">book</i>full resume</a>
+                  <i className="material-icons">book</i>
+                  <span className="uppercase">full resume</span></a>
               </li>
             </ul>
           </section>
