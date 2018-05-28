@@ -372,13 +372,13 @@ $c:3n - random($limit: 3);
     text{
         fill:$color-primary-3 !important
     }
-    text:nth-of-type(#{$a}){
+    text:nth-of-type(3n + 1){
         fill: $color-secondary-1-2 !important;
     }
-    text:nth-of-type(#{$b}){
+    text:nth-of-type(4n+3){
         fill: $color-secondary-2-4 !important;
     }
-    text:nth-of-type(#{$c}){
+    text:nth-of-type(5n - 3){
         fill: $color-secondary-2-1 !important;
     }
 }
