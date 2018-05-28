@@ -2,10 +2,10 @@
 import React, {Component} from 'react';
 // components css
 import './index.scss';
-
-// images
+import MyWordCloud from './MyWordCloud';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
@@ -39,22 +39,26 @@ class App extends Component {
             <section className="projects-list">
               <div className="project serverless-demo">
                 <div>
-                  <a href="#">Serverless Demo</a>
+                  <a href="https://github.com/mdewey/serverless-demo"   target="_blank"
+                rel="noopener noreferrer">Serverless Demo</a>
                 </div>
               </div>
               <div className="project student-list">
                 <div>
-                  <a href="#">Tampa Bay Demo Day</a>
+                  <a href="https://github.com/mdewey/student-list"   target="_blank"
+                rel="noopener noreferrer">Tampa Bay Demo Day</a>
                 </div>
               </div>
               <div className="project pathfinder">
                 <div>
-                  <a href="#">PathfinderTools</a>
+                  <a href="https://github.com/mdewey/PathfinderTools"   target="_blank"
+                rel="noopener noreferrer">PathfinderTools</a>
                 </div>
               </div>
               <div className="project trainable-bot">
                 <div>
-                  <a href="#">Trainable Bot</a>
+                  <a href="https://github.com/mdewey/TrainableBot"   target="_blank"
+                rel="noopener noreferrer">Trainable Bot</a>
                 </div>
               </div>
             </section>
@@ -78,19 +82,19 @@ class App extends Component {
               of work.</h4>
             <ul>
               <li>
-                <i class="material-icons fa-rotate-180">wb_incandescent</i>
+                <i className="material-icons fa-rotate-180">wb_incandescent</i>
                 <span>Always be learning.</span>
               </li>
               <li>
-                <i class="material-icons">rate_review</i>
+                <i className="material-icons">rate_review</i>
                 <span>Design before you build.</span>
               </li>
               <li>
-                <i class="material-icons">sync</i>
+                <i className="material-icons">sync</i>
                 <span>Improvise. Adapt. Overcome.</span>
               </li>
               <li>
-                <i class="material-icons">all_inclusive</i>
+                <i className="material-icons">all_inclusive</i>
                 <span>Organize the Chaos.</span>
               </li>
             </ul>
@@ -102,16 +106,16 @@ class App extends Component {
             </header>
             <section className="current-skills-list">
               <section className="current-skill dot-net">
-                <i class="devicon-dot-net-plain-wordmark colored"></i>
+                <i className="devicon-dot-net-plain-wordmark colored"></i>
               </section>
               <section className="current-skill node-js">
-                <i class="devicon-nodejs-plain colored"></i>
+                <i className="devicon-nodejs-plain colored"></i>
               </section>
               <section className="current-skill">
-                <i class="devicon-react-original-wordmark colored"></i>
+                <i className="devicon-react-original-wordmark colored"></i>
               </section>
               <section className="current-skill">
-                <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                <i className="devicon-amazonwebservices-plain-wordmark colored"></i>
               </section>
             </section>
             <footer>
@@ -127,7 +131,8 @@ class App extends Component {
             <header>
               <h2>My Buzzwords</h2>
             </header>
-            <section className="word-cloud">
+            <section className="word-cloud" id="wordCloud">
+            <MyWordCloud/>
               <span>C#</span>
               <span>NodeJS</span>
               <span>Python</span>
