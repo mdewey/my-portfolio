@@ -39,26 +39,34 @@ class App extends Component {
             <section className="projects-list">
               <div className="project serverless-demo">
                 <div>
-                  <a href="https://github.com/mdewey/serverless-demo"   target="_blank"
-                rel="noopener noreferrer">Serverless Demo</a>
+                  <a
+                    href="https://github.com/mdewey/serverless-demo"
+                    target="_blank"
+                    rel="noopener noreferrer">Serverless Demo</a>
                 </div>
               </div>
               <div className="project student-list">
                 <div>
-                  <a href="https://github.com/mdewey/student-list"   target="_blank"
-                rel="noopener noreferrer">Tampa Bay Demo Day</a>
+                  <a
+                    href="https://github.com/mdewey/student-list"
+                    target="_blank"
+                    rel="noopener noreferrer">Tampa Bay Demo Day</a>
                 </div>
               </div>
               <div className="project pathfinder">
                 <div>
-                  <a href="https://github.com/mdewey/PathfinderTools"   target="_blank"
-                rel="noopener noreferrer">PathfinderTools</a>
+                  <a
+                    href="https://github.com/mdewey/PathfinderTools"
+                    target="_blank"
+                    rel="noopener noreferrer">PathfinderTools</a>
                 </div>
               </div>
               <div className="project trainable-bot">
                 <div>
-                  <a href="https://github.com/mdewey/TrainableBot"   target="_blank"
-                rel="noopener noreferrer">Trainable Bot</a>
+                  <a
+                    href="https://github.com/mdewey/TrainableBot"
+                    target="_blank"
+                    rel="noopener noreferrer">Trainable Bot</a>
                 </div>
               </div>
             </section>
@@ -132,87 +140,7 @@ class App extends Component {
               <h2>My Buzzwords</h2>
             </header>
             <section className="word-cloud" id="wordCloud">
-            <MyWordCloud/>
-              <span>C#</span>
-              <span>NodeJS</span>
-              <span>Python</span>
-              <span>CSS</span>
-              <span>HTML</span>
-              <span>Java</span>
-              <span>Ruby</span>
-              <span>Go</span>
-              <span>VB</span>
-              <span>SQL</span>
-              <span>Neo4j</span>
-              <span>.NET Framework</span>
-              <span>.NET Core</span>
-              <span>.NET Web API</span>
-              <span>Entity Framework</span>
-              <span>Express.js</span>
-              <span>Docker</span>
-              <span>Jade</span>
-              <span>Handlebars</span>
-              <span>AngularJS</span>
-              <span>React</span>
-              <span>VueJS</span>
-              <span>Knockout.js</span>
-              <span>Mongoose</span>
-              <span>Bootstrap</span>
-              <span>Foundation</span>
-              <span>Social Media APIs</span>
-              <span>Google Apps</span>
-              <span>SASS & LESS</span>
-              <span>NUnit</span>
-              <span>Jasmine</span>
-              <span>Custom Chrome Extensions</span>
-              <span>Functional Programming</span>
-              <span>Object Oriented Programming</span>
-              <span>RESTful APIs</span>
-              <span>Mobile First Design</span>
-              <span>API First Design</span>
-              <span>Function First Design</span>
-              <span>Test Driven Development</span>
-              <span>Requirement Driven Development</span>
-              <span>Agile & agile</span>
-              <span>Design Thinking</span>
-              <span>Relational Databases</span>
-              <span>NoSQL Databases</span>
-              <span>Single Page Apps</span>
-              <span>Dependency Injection</span>
-              <span>BIg Data</span>
-              <span>Cloud Computing</span>
-              <span>Source Control</span>
-              <span>Continuous Integration</span>
-              <span>Design Patterns</span>
-              <span>Disciplined Entrepreneurship</span>
-              <span>Visual Studio (Code & 2017)</span>
-              <span>Atom</span>
-              <span>Powershell & Terminal</span>
-              <span>Webpack</span>
-              <span>Gulp</span>
-              <span>Yarn</span>
-              <span>Slack</span>
-              <span>Jira/Trello/Asana</span>
-              <span>Git</span>
-              <span>Github/Bitbucket</span>
-              <span>Vim</span>
-              <span>MS SQL</span>
-              <span>PostgreSQL</span>
-              <span>MySQL</span>
-              <span>MongoDb</span>
-              <span>CouchDb</span>
-              <span>Oracle</span>
-              <span>Azure</span>
-              <span>AWS</span>
-              <span>DocumentDb</span>
-              <span>Rackspace</span>
-              <span>Go Daddy</span>
-              <span>Zeit</span>
-              <span>Surge</span>
-              <span>Docker</span>
-              <span>AI</span>
-              <span>Data Structures</span>
-
+              <MyWordCloud/>
             </section>
           </section>
 
@@ -245,7 +173,8 @@ class App extends Component {
               <li>
                 <a href="tel:4123862294">
                   <i className="material-icons">phone</i>
-                  <span>(412) 368-2294</span></a>
+                  <span>(412) 368-2294</span>
+                </a>
               </li>
               <li>
                 <a
@@ -253,7 +182,8 @@ class App extends Component {
                   target="_blank"
                   rel="noopener noreferrer">
                   <i className="fab fa-linkedin-in"></i>
-                  <span>Linkedin</span></a>
+                  <span>Linkedin</span>
+                </a>
               </li>
               <li>
                 <a
@@ -261,7 +191,8 @@ class App extends Component {
                   target="_blank"
                   rel="noopener noreferrer">
                   <i className="fab fa-twitter"></i>
-                  <span>@juggler2009</span></a>
+                  <span>@juggler2009</span>
+                </a>
               </li>
               <li>
                 <a
@@ -269,7 +200,8 @@ class App extends Component {
                   target="_blank"
                   rel="noopener noreferrer">
                   <i className="fab fa-slack"></i>
-                  <span>@dewseph</span></a>
+                  <span>@dewseph</span>
+                </a>
               </li>
               <li>
                 <a
@@ -277,7 +209,8 @@ class App extends Component {
                   target="_blank"
                   rel="noopener noreferrer">
                   <i className="material-icons">book</i>
-                  <span className="uppercase">full resume</span></a>
+                  <span className="uppercase">full resume</span>
+                </a>
               </li>
             </ul>
           </section>
