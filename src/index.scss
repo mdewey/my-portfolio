@@ -361,3 +361,24 @@ ul{
         }        
     }
 }
+
+
+$a:3n + random($limit:3);
+$b:2n + random($limit: 6);
+$c:3n - random($limit: 3);
+
+#wordCloud{
+
+    text{
+        fill:$color-primary-3 !important
+    }
+    text:nth-of-type(#{$a}){
+        fill: $color-secondary-1-2 !important;
+    }
+    text:nth-of-type(#{$b}){
+        fill: $color-secondary-2-4 !important;
+    }
+    text:nth-of-type(#{$c}){
+        fill: $color-secondary-2-1 !important;
+    }
+}

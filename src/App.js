@@ -29,7 +29,7 @@ class App extends Component {
 
           <section className="current-status-section sub-section">
             <em className="current-status-header">Current Status:</em>
-            <div className="current-status-text">Currently herding cats.</div>
+            <div className="current-status-text">Refueling for the next trip.</div>
           </section>
 
           <section className="projects-section section">
