@@ -29,7 +29,7 @@ class App extends Component {
 
           <section className="current-status-section sub-section">
             <em className="current-status-header">Current Status:</em>
-            <div className="current-status-text">Refueling for the next trip.</div>
+            <div className="current-status-text">Prepping the launch.</div>
           </section>
 
           <section className="projects-section section">
@@ -56,9 +56,9 @@ class App extends Component {
               <div className="project pathfinder">
                 <div>
                   <a
-                    href="https://github.com/mdewey/PathfinderTools"
+                    href="https://github.com/mdewey/license-plate-game"
                     target="_blank"
-                    rel="noopener noreferrer">PathfinderTools</a>
+                    rel="noopener noreferrer">Family License Plate Game</a>
                 </div>
               </div>
               <div className="project trainable-bot">
@@ -116,12 +116,21 @@ class App extends Component {
               <section className="current-skill dot-net">
                 <i className="devicon-dot-net-plain-wordmark colored"></i>
               </section>
+
+              <section className="current-skill dot-net">
+                <i class="devicon-vuejs-plain-wordmark colored"></i>
+              </section>
+
               <section className="current-skill node-js">
                 <i className="devicon-nodejs-plain colored"></i>
               </section>
               <section className="current-skill">
                 <i className="devicon-react-original-wordmark colored"></i>
               </section>
+              <section className="current-skill">
+                <i class="devicon-sass-original colored"></i>
+              </section>
+
               <section className="current-skill">
                 <i className="devicon-amazonwebservices-plain-wordmark colored"></i>
               </section>
