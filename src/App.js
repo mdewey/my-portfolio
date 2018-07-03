@@ -29,7 +29,8 @@ class App extends Component {
 
           <section className="current-status-section sub-section">
             <em className="current-status-header">Current Status:</em>
-            <div className="current-status-text">Prepping the launch.</div>
+            <div className="current-status-text">Ramping into <a href="https://www.suncoast.io"  target="_blank"
+                    rel="noopener noreferrer">SDG</a>.</div>
           </section>
 
           <section className="projects-section section">
