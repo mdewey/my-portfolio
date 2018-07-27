@@ -249,8 +249,8 @@ class MyWordCloud extends React.Component {
     render() {
         return (
             <div
-                containerWidth={this.props.containerWidth}
-                containerHeight={this.props.containerHeight}>
+                containerhidth={this.props.containerWidth}
+                containerheight={this.props.containerHeight}>
                 <WordCloud
                     data={data}
                     fontSizeMapper={fontSizeMapper}

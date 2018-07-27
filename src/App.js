@@ -2,9 +2,11 @@
 import React, {Component} from 'react';
 // components css
 import './index.scss';
-import MyWordCloud from './MyWordCloud';
-
+import MyWordCloud from './Components/MyWordCloud';
+import Status from './Components/RandomStatus';
 class App extends Component {
+
+
 
   render() {
     return (
@@ -29,8 +31,7 @@ class App extends Component {
 
           <section className="current-status-section sub-section">
             <em className="current-status-header">Current Status:</em>
-            <div className="current-status-text">Ramping into <a href="https://www.suncoast.io"  target="_blank"
-                    rel="noopener noreferrer">SDG</a>.</div>
+            <div className="current-status-text"><Status/></div>
           </section>
 
           <section className="projects-section section">
@@ -119,7 +120,7 @@ class App extends Component {
               </section>
 
               <section className="current-skill dot-net">
-                <i class="devicon-vuejs-plain-wordmark colored"></i>
+                <i className="devicon-vuejs-plain-wordmark colored"></i>
               </section>
 
               <section className="current-skill node-js">
@@ -129,7 +130,7 @@ class App extends Component {
                 <i className="devicon-react-original-wordmark colored"></i>
               </section>
               <section className="current-skill">
-                <i class="devicon-sass-original colored"></i>
+                <i className="devicon-sass-original colored"></i>
               </section>
 
               <section className="current-skill">
