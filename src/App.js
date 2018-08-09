@@ -105,7 +105,7 @@ class App extends Component {
               </li>
               <li>
                 <i className="material-icons">all_inclusive</i>
-                <span>Organize the Chaos.</span>
+                <span>Organize the chaos.</span>
               </li>
             </ul>
           </section>
