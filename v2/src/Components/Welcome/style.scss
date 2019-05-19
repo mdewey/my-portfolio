@@ -1,0 +1,39 @@
+@import '../../styles/varibles';
+@import '../../styles/helpers';
+
+.body {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $header-color;
+    color: $header-text-color;
+    padding: 2em;
+
+    h4 {
+      text-align: center;
+      color: $sub-header-text;
+    }
+  }
+}
+
+.welcome-message {
+  padding: 2rem;
+  width: 95%;
+  font-size: 1.5rem;
+}
+
+.title-block {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.face-pic {
+  height: 15em;
+  width: 15em;
+  border: 0.25em $picture-border solid;
+  background-image: $face-pic;
+  border-radius: 10px;
+  @extend .background-image-helper;
+}

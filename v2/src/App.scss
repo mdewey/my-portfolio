@@ -1,33 +1,286 @@
+/* Palette URL: http://paletton.com/#uid=33Z0u1keTpni3mVgCnT1JdS00a5kkVJJnKGrmsHI6Fpy2Tj1ke9jOtFiKsqjI954P7v0l */
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+@import 'styles/varibles';
+@import 'styles/helpers';
+
+body {
+  background: $background-color;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+}
+a {
+  color: $link-color;
+  font-weight: 1000;
+  font-kerning: 10;
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0;
+}
 .App {
+  width: 100%;
+  min-width: 300px;
+}
+
+.hero {
+  @extend .background-image-helper;
+  background-image: $hero-img;
+  height: 16em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.section {
+  background-color: $section-background-color;
+  margin: 0;
+  header {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 2em;
+  }
+  h4 {
+    margin: 1em;
+  }
+  ul {
+    padding-bottom: 1em;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: $section-footer-background-color;
+    height: 3em;
+    a {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    nav,
+    a {
+      @extend .uppercase;
+      text-decoration: none;
+      i {
+        padding-right: 0.25em;
+      }
+    }
+  }
+}
+
+.sub-section {
+  background-color: $panel-background-color;
+  margin: 1em;
+  padding: 1em;
+}
+
+.contact-info.sub-section {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact-button {
+  width: 100%;
+  font-size: 1.2em;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  i {
+    padding-right: 0.5em;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.current-status-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.current-status-header {
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+
+.current-status-text {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.projects-section {
+  header {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 2em;
+  }
+  background-color: $dark-section-background;
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .project {
+      flex-basis: 40%;
+      height: 10em;
+      width: 10em;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin: 1em;
+      div {
+        background: $project-title-banner;
+        width: 100%;
+        text-align: right;
+        padding: 0.5em;
+      }
+    }
+    @media screen and (min-width: 900px) {
+      .project {
+        flex-basis: 20%;
+      }
+    }
+    .serverless-demo {
+      background-image: url('/images/serverless.png');
+      background-size: 100% 100%;
+    }
+    .st-pete-lease {
+      background-image: url('/images/st.pete.lease.png');
+      background-size: 100% 100%;
+    }
+    .student-list {
+      background-image: url('/images/demo.day.png');
+      background-size: 100% 100%;
+    }
+    .pathfinder {
+      background-image: url('/images/pathfinder.png');
+      background-size: 100% 100%;
+    }
+    .trainable-bot {
+      background-image: url('/images/bot.png');
+      background-size: 100% 100%;
+    }
+  }
+}
+
+.word-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  span {
+    margin: 0.25em;
+  }
+  span:nth-of-type(2n + 3) {
+    font-size: 1.25em;
+  }
+  span:nth-of-type(2n + 4) {
+    font-size: 1.5em;
+  }
+  span:nth-of-type(4n - 2) {
+    font-size: 1em;
+  }
+}
+
+.current-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  background-color: $dark-section-background;
+  .current-skill {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    i {
+      font-size: 5em;
+      padding: 0.25em;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    justify-content: center;
+    .current-skill {
+      flex-basis: 0;
+    }
+    i {
+      margin: 0.5em;
+      padding: 1em 0em;
+    }
+  }
+}
+
+.contact-me {
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 1em;
+    li {
+      a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $contact-link-color;
+        text-decoration: none;
+        span {
+          text-decoration: underline;
+        }
+      }
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1em;
+      flex-grow: 1;
+      justify-content: center;
+      align-items: center;
+      min-height: 3em;
+      i {
+        font-size: 2.25em;
+      }
+    }
+    @media screen and (max-width: 900px) {
+      flex-wrap: wrap;
+      li {
+        min-width: 50%;
+        margin-bottom: 3em;
+      }
+    }
+  }
+}
+
+$a: 3n +
+  random(
+    $limit: 3
+  );
+$b: 2n +
+  random(
+    $limit: 6
+  );
+$c: 3n -
+  random(
+    $limit: 3
+  );
+
+#wordCloud {
+  text {
+    fill: $color-primary-3 !important;
+  }
+  text:nth-of-type(3n + 1) {
+    fill: $color-secondary-1-2 !important;
+  }
+  text:nth-of-type(4n + 3) {
+    fill: $color-secondary-2-4 !important;
+  }
+  text:nth-of-type(5n - 3) {
+    fill: $color-secondary-2-1 !important;
   }
 }

@@ -96,34 +96,6 @@ class App extends Component {
             </footer>
           </section>
 
-          <section className="section core-values">
-            <header>
-              <h2>Core Values</h2>
-            </header>
-            <h4>
-              Theses are the princples that I bring to my every day life, in and
-              outside of work.
-            </h4>
-            <ul>
-              <li>
-                <i className="material-icons fa-rotate-180">wb_incandescent</i>
-                <span>Always be learning.</span>
-              </li>
-              <li>
-                <i className="material-icons">rate_review</i>
-                <span>Design before you build.</span>
-              </li>
-              <li>
-                <i className="material-icons">sync</i>
-                <span>Improvise. Adapt. Overcome.</span>
-              </li>
-              <li>
-                <i className="material-icons">all_inclusive</i>
-                <span>Organize the chaos.</span>
-              </li>
-            </ul>
-          </section>
-
           <section className="section">
             <header>
               <h2>Currently Working In</h2>
