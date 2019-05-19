@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 // components css
 import './index.scss'
 import MyWordCloud from './Components/MyWordCloud'
-import Status from './Components/RandomStatus'
+import Status from '../../v2/src/Components/CurrentStatus/RandomStatus'
 
 class App extends Component {
   render() {
@@ -26,13 +26,6 @@ class App extends Component {
             <a href="#contact" className="contact-button">
               Just looking to contact me?
             </a>
-          </section>
-
-          <section className="current-status-section sub-section">
-            <em className="current-status-header">Current Status:</em>
-            <div className="current-status-text">
-              <Status />
-            </div>
           </section>
 
           <section className="projects-section section">

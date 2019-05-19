@@ -8,11 +8,9 @@ Built with React, deployed to netilfy. Current at [dewseph.com](https://www.dews
 
 ## Phase 1: The Redesign
 
-- [ ] Migrate title & favicon
 - [ ] Migrate current status
 - [ ] Migrate recent projects
 - [ ] Migrate currently working in
-- [ ] Migrate core values
 - [ ] Migrate buzzwords
 - [ ] Migrate contact
 - [ ] polish off new design
