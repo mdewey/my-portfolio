@@ -5,7 +5,7 @@ export default function Status() {
     const number = Math.floor(Math.random() * 10) // number between 0-9
     switch (number) {
       case 1:
-        return 'Learning by falling!'
+        return 'Falling off the climbing wall!'
       case 2:
         return 'Definitely not sword fighting while my code is compiling...'
       case 3:
