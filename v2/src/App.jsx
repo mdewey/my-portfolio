@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Index.jsx'
 import AboutMe from './Components/Welcome/Index.jsx'
 import CoreValues from './Components/CoreValues/Index'
 import CurrentStatus from './Components/CurrentStatus/Index'
+import CurrentTech from './Components/CurrentTech/Index'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <CurrentStatus />
       <AboutMe />
       <CoreValues />
+      <CurrentTech />
     </>
   )
 }
