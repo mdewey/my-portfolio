@@ -3,14 +3,23 @@
 
 $li-second-color: green;
 $li-main-color: yellow;
+$border-color: pink;
 
 .core-values {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 3px solid $border-color;
+    margin: 2rem;
+  }
   ul {
     list-style: none;
     display: flex;
 
     flex-wrap: wrap;
-    padding: 1rem 0;
+    padding: 0;
     .list-item {
       flex-basis: 50%;
       display: flex;

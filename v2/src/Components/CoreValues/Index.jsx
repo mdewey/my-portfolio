@@ -6,11 +6,11 @@ export default function CoreValues() {
       <section className="section core-values">
         <header>
           <h2>Core Values</h2>
+          <h4>
+            Theses are the principles that I bring to my every day life, in and
+            outside of work.
+          </h4>
         </header>
-        <h4>
-          Theses are the principles that I bring to my every day life, in and
-          outside of work.
-        </h4>
         <ul>
           <li className="list-item mobile-highlight">
             <i className="material-icons fa-rotate-180">wb_incandescent</i>
