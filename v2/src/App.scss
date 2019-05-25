@@ -179,44 +179,6 @@ ul {
   }
 }
 
-.contact-me {
-  ul {
-    display: flex;
-    padding: 0;
-    margin: 1em;
-    li {
-      a {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: $contact-link-color;
-        text-decoration: none;
-        span {
-          text-decoration: underline;
-        }
-      }
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 1em;
-      flex-grow: 1;
-      justify-content: center;
-      align-items: center;
-      min-height: 3em;
-      i {
-        font-size: 2.25em;
-      }
-    }
-    @media screen and (max-width: 900px) {
-      flex-wrap: wrap;
-      li {
-        min-width: 50%;
-        margin-bottom: 3em;
-      }
-    }
-  }
-}
-
 $a: 3n +
   random(
     $limit: 3
