@@ -1,5 +1,8 @@
-@import '../../styles/varibles';
+@import '../../styles/variables';
 @import '../../styles/helpers';
+
+$li-second-color: green;
+$li-main-color: yellow;
 
 .core-values {
   ul {
@@ -7,33 +10,52 @@
     display: flex;
 
     flex-wrap: wrap;
-    padding: 1em 0;
-    li {
+    padding: 1rem 0;
+    .list-item {
       flex-basis: 50%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      height: 10rem;
       i {
         font-size: 2.5em;
       }
       span {
-        text-align: center;
+        text-align: left;
       }
+    }
+    .list-item.mobile-highlight {
+      color: initial;
+      background-color: initial;
+    }
+    .list-item.desktop-highlight {
+      color: $li-main-color;
+      background-color: $li-second-color;
     }
   }
 }
 
 @media (max-width: 500px) {
-  ul {
-    display: flex;
-    flex-direction: column;
-    li {
-      padding: 2rem;
-    }
-    li:nth-child(odd) {
-      background-color: green;
-      color: yellow;
+  .core-values {
+    ul {
+      display: flex;
+      flex-direction: column;
+      .filler {
+        display: none !important;
+      }
+      .list-item {
+        padding: 2rem;
+        height: initial;
+      }
+      .list-item.desktop-highlight {
+        color: initial;
+        background-color: initial;
+      }
+      .list-item.mobile-highlight {
+        color: $li-main-color;
+        background-color: $li-second-color;
+      }
     }
   }
 }

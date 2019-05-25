@@ -1,2 +1,18 @@
-@import '../../styles/varibles';
+@import '../../styles/variables';
 @import '../../styles/helpers';
+
+.current-status-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.current-status-header {
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+
+.current-status-text {
+  font-size: 1.2em;
+  text-align: center;
+}

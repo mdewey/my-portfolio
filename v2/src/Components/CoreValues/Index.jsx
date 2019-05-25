@@ -12,19 +12,19 @@ export default function CoreValues() {
           outside of work.
         </h4>
         <ul>
-          <li>
+          <li className="list-item mobile-highlight">
             <i className="material-icons fa-rotate-180">wb_incandescent</i>
             <span>Always be learning.</span>
           </li>
-          <li>
+          <li className="list-item desktop-highlight">
             <i className="material-icons">rate_review</i>
             <span>Design before you build.</span>
           </li>
-          <li>
+          <li className="list-item desktop-highlight mobile-highlight">
             <i className="material-icons">sync</i>
             <span>Improvise. Adapt. Overcome.</span>
           </li>
-          <li>
+          <li className="list-item">
             <i className="material-icons">all_inclusive</i>
             <span>Organize the chaos.</span>
           </li>

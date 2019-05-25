@@ -1,6 +1,6 @@
 /* Palette URL: http://paletton.com/#uid=33Z0u1keTpni3mVgCnT1JdS00a5kkVJJnKGrmsHI6Fpy2Tj1ke9jOtFiKsqjI954P7v0l */
 @import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
-@import 'styles/varibles';
+@import 'styles/variables';
 @import 'styles/helpers';
 
 body {
@@ -102,22 +102,6 @@ ul {
   i {
     padding-right: 0.5em;
   }
-}
-
-.current-status-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.current-status-header {
-  font-size: 0.8em;
-  padding: 0.5em;
-}
-
-.current-status-text {
-  font-size: 1.2em;
-  text-align: center;
 }
 
 .projects-section {
