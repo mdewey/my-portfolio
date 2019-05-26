@@ -11,7 +11,7 @@ Built with React, deployed to netilfy. Current at [dewseph.com](https://www.dews
 - [x] Migrate currently working in
 - [x] Migrate buzzwords
 - [x] Migrate contact
-- [ ] polish off new design
+- [xre] polish off new design
 - [ ] update pictures to be better for slow speed
 - [ ] make responsive
 - [ ] Update color scheme

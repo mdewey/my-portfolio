@@ -31,7 +31,7 @@ ul {
 
 .hero {
   @extend .background-image-helper;
-  background-image: $hero-img;
+
   height: 16em;
   background-size: cover;
   background-position: center;

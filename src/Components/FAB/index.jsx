@@ -10,7 +10,7 @@ export default function FAB() {
     'core-values',
     'currently-working',
     'buzzwords',
-    'contact-me'
+    'contact'
   ]
   const [currentSection, setCurrentStatue] = useState(0)
   const movePage = () => {

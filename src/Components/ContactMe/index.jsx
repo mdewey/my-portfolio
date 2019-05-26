@@ -3,7 +3,7 @@ import './style.scss'
 
 export default function ContactMe() {
   return (
-    <section id="contact" className="section contact-me" id="contact-me">
+    <section id="contact" className="section contact-me">
       <header>
         <h2>Interested? Let's Chat!</h2>
       </header>
