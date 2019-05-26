@@ -11,12 +11,13 @@ Built with React, deployed to netilfy. Current at [dewseph.com](https://www.dews
 - [x] Migrate currently working in
 - [x] Migrate buzzwords
 - [x] Migrate contact
-- [xre] polish off new design
-- [ ] update pictures to be better for slow speed
-- [ ] make responsive
-- [ ] Update color scheme
+- [x] polish off new design
+- [x] update pictures to be better for slow speed
+- [x] make responsive
+- [ ] update color scheme
 - [ ] add Google Analytics
-- [ ] delete old design && deploy
+- [ ] deploy
+- [x] get a better domain name
 
 ## Cool feature, have ctrl+P be my resume
 
