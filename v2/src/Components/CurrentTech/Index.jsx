@@ -32,11 +32,11 @@ export default function CurrentTech() {
       </section>
       <footer>
         <a
+          href="https://www.github.com/mdewey"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://mdewey.github.io/resume/"
         >
-          view full resume
+          <nav>view all projects on github</nav>
         </a>
       </footer>
     </section>

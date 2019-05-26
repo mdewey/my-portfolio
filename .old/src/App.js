@@ -78,15 +78,7 @@ class App extends Component {
                 </div>
               </div>
             </section>
-            <footer>
-              <a
-                href="https://www.github.com/mdewey"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <nav>view all projects on github</nav>
-              </a>
-            </footer>
+            <footer />
           </section>
 
           <section className="section">
