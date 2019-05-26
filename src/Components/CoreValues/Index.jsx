@@ -3,7 +3,7 @@ import './style.scss'
 export default function CoreValues() {
   return (
     <>
-      <section className="section core-values">
+      <section className="section core-values" id="core-values">
         <header>
           <h2>Core Values</h2>
           <h4>

@@ -324,7 +324,7 @@ const fontSizeMapper = word => Math.log2(word.value) * 5
 class Skills extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section" id="buzzwords">
         <header>
           <h2>My Buzzwords</h2>
         </header>

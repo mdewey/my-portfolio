@@ -3,7 +3,7 @@ import './style.scss'
 
 export default function CurrentTech() {
   return (
-    <section className="section">
+    <section className="section" id="currently-working">
       <header>
         <h2>Currently Working In</h2>
       </header>
