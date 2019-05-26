@@ -22,6 +22,7 @@
   padding: 2rem;
   width: 95%;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .title-block {
@@ -33,7 +34,6 @@
   height: 15em;
   width: 15em;
   border: 0.25em $picture-border solid;
-  background-image: $face-pic;
   border-radius: 10px;
   @extend .background-image-helper;
 }

@@ -1,3 +1,6 @@
+@import '../../styles/variables';
+@import '../../styles/helpers';
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -7,4 +10,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.just-contact {
+  @extend .btn-link;
+  background-color: transparent;
+  cursor: pointer;
 }
