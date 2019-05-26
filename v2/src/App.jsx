@@ -6,6 +6,7 @@ import CoreValues from './Components/CoreValues/Index'
 import CurrentStatus from './Components/CurrentStatus/Index'
 import CurrentTech from './Components/CurrentTech/Index'
 import ContactMe from './Components/ContactMe'
+import Skills from './Components/Skills'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AboutMe />
       <CoreValues />
       <CurrentTech />
+      <Skills />
       <ContactMe />
     </>
   )

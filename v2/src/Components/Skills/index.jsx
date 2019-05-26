@@ -1,6 +1,6 @@
 import React from 'react'
+import './style.scss'
 import Dimensions from 'react-dimensions'
-
 import WordCloud from 'react-d3-cloud'
 
 const data = [
@@ -50,11 +50,11 @@ const data = [
   },
   {
     text: '.NET Framework',
-    value: 100
+    value: 80
   },
   {
     text: '.NET Core',
-    value: 80
+    value: 100
   },
   {
     text: '.NET Web API',
@@ -86,7 +86,7 @@ const data = [
   },
   {
     text: 'React',
-    value: 25
+    value: 40
   },
   {
     text: 'VueJS',
@@ -126,7 +126,7 @@ const data = [
   },
   {
     text: 'Jasmine',
-    value: 40
+    value: 20
   },
   {
     text: 'Custom Chrome Extensions',
@@ -172,6 +172,7 @@ const data = [
     text: 'Design Thinking',
     value: 40
   },
+  { text: 'Design', value: 33 },
   {
     text: 'Relational Databases',
     value: 40
@@ -320,21 +321,28 @@ const data = [
 
 const fontSizeMapper = word => Math.log2(word.value) * 5
 
-class MyWordCloud extends React.Component {
+class Skills extends React.Component {
   render() {
     return (
-      <div
-        containerhidth={this.props.containerWidth}
-        containerheight={this.props.containerHeight}
-      >
-        <WordCloud
-          data={data}
-          fontSizeMapper={fontSizeMapper}
-          width={this.props.containerWidth}
-        />
-      </div>
+      <section className="section">
+        <header>
+          <h2>My Buzzwords</h2>
+        </header>
+        <section className="word-cloud" id="wordCloud">
+          <div
+            containerhidth={this.props.containerWidth}
+            containerheight={this.props.containerHeight}
+          >
+            <WordCloud
+              data={data}
+              fontSizeMapper={fontSizeMapper}
+              width={this.props.containerWidth}
+            />
+          </div>
+        </section>
+      </section>
     )
   }
 }
 
-export default Dimensions()(MyWordCloud) // Enhanced component
+export default Dimensions()(Skills) // Enhanced component
