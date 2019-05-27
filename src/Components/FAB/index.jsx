@@ -6,7 +6,7 @@ import { Container, Button } from 'react-floating-action-button'
 
 export default function FAB() {
   const sections = [
-    'current-status',
+    'welcome',
     'core-values',
     'currently-working',
     'buzzwords',
