@@ -28,7 +28,7 @@ export default function FAB() {
   }
   return (
     <Container>
-      <Button to="" className="" onClick={movePage}>
+      <Button to="" className="fab" onClick={movePage}>
         {currentSection < sections.length ? (
           <i className="material-icons">arrow_downward</i>
         ) : (

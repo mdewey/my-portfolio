@@ -19,12 +19,29 @@ $color-secondary-2-4: #030202;
 
 /* custom assignments */
 
+/* v2 colors*/
+
+$primary-color: #43a047;
+$primary-light: #76d275;
+$primary-dark: #00701a;
+$primary-text: #212121;
+
+$secondary-color: #9e9e9e;
+$secondary-light: #cfcfcf;
+$secondary-dark: #707070;
+$secondary-text: #212121;
+
+$dark-text: #212121;
+$light-text: $secondary-light;
+
+$dark-transparency: rgba(0, 0, 0, 0.5);
+
 $background-color: $color-secondary-1-3;
 $header-text-color: white;
 $header-color: $color-primary-1;
 $sub-header-text: $color-secondary-1-2;
 $picture-border: $color-secondary-1-4;
-$link-color: $color-secondary-2-1;
+$link-color: $secondary-light;
 $contact-link-color: $color-secondary-2-2;
 
 $panel-background-color: $color-secondary-1-3;
@@ -40,3 +57,6 @@ $light-secondary: #808080;
 $footer-color: #a9a9a9;
 
 $border-color: pink;
+
+$fab-button: $primary-light;
+$fab-text: $primary-text;
