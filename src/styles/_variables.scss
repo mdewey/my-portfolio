@@ -34,20 +34,12 @@ $secondary-text: #212121;
 $dark-text: #212121;
 $light-text: $secondary-light;
 
-$dark-transparency: rgba(0, 0, 0, 0.5);
+$body-color: $secondary-dark;
 
-$background-color: $color-secondary-1-3;
-$header-text-color: white;
-$header-color: $color-primary-1;
-$sub-header-text: $color-secondary-1-2;
-$picture-border: $color-secondary-1-4;
-$link-color: $secondary-light;
-$contact-link-color: $color-secondary-2-2;
+// old color things
 
 $panel-background-color: $color-secondary-1-3;
-$section-background-color: $color-secondary-1-3;
 $project-title-banner: $faded-secondary-1-4;
-$dark-section-background: $color-secondary-2-4;
 
 $section-footer-background-color: $color-secondary-1-0;
 $bright-main: #708090;
@@ -58,5 +50,15 @@ $footer-color: #a9a9a9;
 
 $border-color: pink;
 
+$header-text-color: $secondary-light;
+/*used */
+
+$contact-link-color: $light-text;
+$picture-border: $primary-light;
+$section-background: $secondary-light;
+$dark-section-background: $primary-dark;
+$background-color: $secondary-light;
+$dark-transparency: rgba(0, 0, 0, 0.5);
+$link-color: $secondary-light;
 $fab-button: $primary-light;
 $fab-text: $primary-text;

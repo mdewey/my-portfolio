@@ -2,6 +2,8 @@
 @import '../../styles/helpers';
 
 .contact-me {
+  background-color: $section-background;
+  color: $light-text;
   ul {
     display: flex;
     padding: 0;
@@ -26,7 +28,7 @@
       align-items: center;
       min-height: 3em;
       i {
-        font-size: 2.25em;
+        font-size: 3em;
       }
     }
     @media screen and (max-width: 900px) {

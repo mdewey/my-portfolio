@@ -26,9 +26,10 @@ export default function FAB() {
       setCurrentStatue(0)
     }
   }
+
   return (
     <Container>
-      <Button to="" className="fab" onClick={movePage}>
+      <Button to="" className="fab-button" onClick={movePage}>
         {currentSection < sections.length ? (
           <i className="material-icons">arrow_downward</i>
         ) : (

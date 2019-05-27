@@ -11,7 +11,7 @@ export default function AboutMe() {
     <>
       <ProgressiveImage src={mainImage} placeholder={lightImage}>
         {src => (
-          <section className="body">
+          <section className="section body">
             <header>
               <section className="title-block">
                 <div
