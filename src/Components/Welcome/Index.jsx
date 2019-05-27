@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.scss'
+import CurrentStatus from '../CurrentStatus'
 
 import ProgressiveImage from 'react-progressive-image'
 
@@ -23,6 +24,7 @@ export default function AboutMe() {
                 Hello! My name is Mark. I am a software engineer that focuses on
                 people over product.
               </section>
+              <CurrentStatus />
             </header>
           </section>
         )}

@@ -34,6 +34,7 @@ export default function CurrentTech() {
         <a
           href="https://www.github.com/mdewey"
           target="_blank"
+          className="github-link"
           rel="noopener noreferrer"
         >
           <nav>view all projects on github</nav>

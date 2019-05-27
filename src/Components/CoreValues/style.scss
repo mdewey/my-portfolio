@@ -1,8 +1,8 @@
 @import '../../styles/variables';
 @import '../../styles/helpers';
 
-$li-second-color: green;
-$li-main-color: yellow;
+$li-second-color: $primary-dark;
+$li-main-color: $secondary-light;
 
 .core-values {
   ul {
@@ -17,6 +17,8 @@ $li-main-color: yellow;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      color: $li-second-color;
+      background-color: $li-main-color;
       height: 10rem;
       i {
         font-size: 2.5em;
@@ -26,8 +28,8 @@ $li-main-color: yellow;
       }
     }
     .list-item.mobile-highlight {
-      color: initial;
-      background-color: initial;
+      color: $li-second-color;
+      background-color: $li-main-color;
     }
     .list-item.desktop-highlight {
       color: $li-main-color;
@@ -49,8 +51,8 @@ $li-main-color: yellow;
         height: initial;
       }
       .list-item.desktop-highlight {
-        color: initial;
-        background-color: initial;
+        color: $li-second-color;
+        background-color: $li-main-color;
       }
       .list-item.mobile-highlight {
         color: $li-main-color;

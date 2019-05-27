@@ -3,18 +3,16 @@ import React from 'react'
 import './App.scss'
 import Hero from './Components/Hero'
 import AboutMe from './Components/Welcome'
-import CoreValues from './Components/CoreValues/Index'
-import CurrentStatus from './Components/CurrentStatus'
-import CurrentTech from './Components/CurrentTech/Index'
+import CoreValues from './Components/CoreValues'
+import CurrentTech from './Components/CurrentTech'
 import ContactMe from './Components/ContactMe'
-import Skills from './Components/Skills'
 import FAB from './Components/FAB'
+import Skills from './Components/Skills'
 
 function App() {
   return (
     <>
       <Hero />
-      <CurrentStatus />
       <AboutMe />
       <CoreValues />
       <CurrentTech />
