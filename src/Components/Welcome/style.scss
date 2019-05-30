@@ -1,7 +1,8 @@
 @import '../../styles/variables';
 @import '../../styles/helpers';
 
-.body {
+.welcome {
+  margin: 0;
   header {
     display: flex;
     align-items: center;
@@ -9,26 +10,26 @@
     flex-direction: column;
     background-color: $dark-section-background;
     color: $header-text-color;
-    padding: 2em;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
-}
+  .welcome-message {
+    padding: 2rem;
+    width: 95%;
+    font-size: 1.5rem;
+    text-align: center;
+  }
 
-.welcome-message {
-  padding: 2rem;
-  width: 95%;
-  font-size: 1.5rem;
-  text-align: center;
-}
+  .title-block {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-.title-block {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.face-pic {
-  height: 15em;
-  width: 15em;
-  border: 0.25em $picture-border solid;
-  border-radius: 10px;
-  @extend .background-image-helper;
+  .face-pic {
+    height: 15em;
+    width: 15em;
+    border: 0.25em $picture-border solid;
+    border-radius: 50%;
+    @extend .background-image-helper;
+  }
 }

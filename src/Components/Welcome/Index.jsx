@@ -12,7 +12,7 @@ export default function AboutMe() {
     <>
       <ProgressiveImage src={mainImage} placeholder={lightImage}>
         {src => (
-          <section className="section body" id="welcome">
+          <section className="section welcome" id="welcome">
             <header>
               <section className="title-block">
                 <div
@@ -21,8 +21,11 @@ export default function AboutMe() {
                 />
               </section>
               <section className="welcome-message">
-                Hello! My name is Mark. I am a software engineer that focuses on
-                people over product.
+                <h1>Hello!</h1>
+                <h1>My name is Mark.</h1>
+                <h1>
+                  I am a software engineer that focuses on people over product.{' '}
+                </h1>
               </section>
               <CurrentStatus />
             </header>
