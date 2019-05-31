@@ -7,7 +7,7 @@ export default function CoreValues() {
         <header>
           <h2>Core Values</h2>
           <h4>
-            Theses are the principles that I bring to my every day life, in and
+            These are the principles that I bring to my every day life, in and
             outside of work.
           </h4>
         </header>
