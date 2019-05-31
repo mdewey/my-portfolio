@@ -9,6 +9,7 @@
     "react-dimensions": "^1.3.1",
     "react-dom": "^16.8.6",
     "react-floating-action-button": "^1.0.5",
+    "react-ga": "^2.5.7",
     "react-progressive-image": "^0.6.0",
     "react-scripts": "3.0.1",
     "react-scroll": "^1.7.11"
@@ -18,8 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "netlify deploy --dir=build"
+    "deploy": "git push origin master"
   },
   "eslintConfig": {
     "extends": "react-app"

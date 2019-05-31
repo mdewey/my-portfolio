@@ -14,8 +14,8 @@ Built with React, deployed to netilfy. Current at [dewseph.com](https://www.dews
 - [x] polish off new design
 - [x] update pictures to be better for slow speed
 - [x] make responsive
-- [ ] update color scheme
-- [ ] add Google Analytics
+- [x] update color scheme
+- [x] add Google Analytics
 - [ ] deploy
 - [x] get a better domain name
 
