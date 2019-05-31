@@ -22,7 +22,7 @@ export default function ContactMe() {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/mark-dewey-ba78bb3a"
+            href="https://www.linkedin.com/in/mark-dewey"
             target="_blank"
             rel="noopener noreferrer"
           >
