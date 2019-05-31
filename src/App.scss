@@ -86,33 +86,3 @@ ul {
     padding-right: 0.5em;
   }
 }
-
-.word-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  span {
-    margin: 0.25em;
-  }
-  span:nth-of-type(2n + 3) {
-    font-size: 1.25em;
-  }
-  span:nth-of-type(2n + 4) {
-    font-size: 1.5em;
-  }
-  span:nth-of-type(4n - 2) {
-    font-size: 1em;
-  }
-}
-
-$a: 3n +
-  random(
-    $limit: 3
-  );
-$b: 2n +
-  random(
-    $limit: 6
-  );
-$c: 3n -
-  random(
-    $limit: 3
-  );

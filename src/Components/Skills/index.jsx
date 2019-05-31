@@ -30,11 +30,11 @@ const data = [
   },
   {
     text: 'Ruby',
-    value: 25
+    value: 10
   },
   {
     text: 'Go',
-    value: 10
+    value: 25
   },
   {
     text: 'VB',
@@ -117,7 +117,7 @@ const data = [
     value: 10
   },
   {
-    text: 'SASS & LESS',
+    text: 'SASS',
     value: 60
   },
   {
@@ -142,7 +142,7 @@ const data = [
   },
   {
     text: 'RESTful APIs',
-    value: 100
+    value: 85
   },
   {
     text: 'Mobile First Design',
@@ -183,7 +183,7 @@ const data = [
   },
   {
     text: 'Single Page Apps',
-    value: 25
+    value: 45
   },
   {
     text: 'Dependency Injection',
@@ -209,17 +209,14 @@ const data = [
     text: 'Design Patterns',
     value: 40
   },
+
   {
-    text: 'Disciplined Entrepreneurship',
-    value: 30
-  },
-  {
-    text: 'Visual Studio (Code & 2017)',
+    text: 'Visual Studio',
     value: 25
   },
   {
-    text: 'Atom',
-    value: 10
+    text: 'VS Code',
+    value: 25
   },
   {
     text: 'Powershell & Terminal',
@@ -242,7 +239,7 @@ const data = [
     value: 10
   },
   {
-    text: 'Jira/Trello/Asana',
+    text: 'agile tools',
     value: 10
   },
   {
@@ -250,7 +247,7 @@ const data = [
     value: 70
   },
   {
-    text: 'Github/Bitbucket',
+    text: 'Github',
     value: 20
   },
   {
@@ -263,7 +260,7 @@ const data = [
   },
   {
     text: 'PostgreSQL',
-    value: 10
+    value: 25
   },
   {
     text: 'MySQL',
@@ -275,10 +272,6 @@ const data = [
   },
   {
     text: 'CouchDb',
-    value: 10
-  },
-  {
-    text: 'Oracle',
     value: 10
   },
   {
@@ -294,19 +287,11 @@ const data = [
     value: 10
   },
   {
-    text: 'Rackspace',
-    value: 10
-  },
-  {
-    text: 'Go Daddy',
-    value: 10
-  },
-  {
     text: 'Zeit',
     value: 10
   },
   {
-    text: 'Surge',
+    text: 'Netlify',
     value: 10
   },
   {
@@ -330,13 +315,13 @@ class Skills extends React.Component {
         </header>
         <section className="word-cloud" id="wordCloud">
           <div
-            containerhidth={this.props.containerWidth}
-            containerheight={this.props.containerHeight}
+            containerWidth={this.props.containerWidth}
+            containerHeight={this.props.containerHeight}
           >
             <WordCloud
               data={data}
               fontSizeMapper={fontSizeMapper}
-              width={this.props.containerWidth}
+              width={this.props.containerWidth - 25}
             />
           </div>
         </section>

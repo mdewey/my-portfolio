@@ -3,15 +3,32 @@
 
 #wordCloud {
   text {
-    fill: whitesmoke !important;
+    fill: $word-cloud-color-1 !important;
   }
   text:nth-of-type(3n + 1) {
-    fill: black !important;
+    fill: $word-cloud-color-2 !important;
   }
   text:nth-of-type(4n + 3) {
-    fill: blue !important;
+    fill: $word-cloud-color-3 !important;
   }
   text:nth-of-type(5n - 3) {
-    fill: green !important;
+    fill: $word-cloud-color-4 !important;
+  }
+}
+
+.word-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  span {
+    margin: 0.25em;
+  }
+  span:nth-of-type(2n + 3) {
+    font-size: 1.25em;
+  }
+  span:nth-of-type(2n + 4) {
+    font-size: 1.5em;
+  }
+  span:nth-of-type(4n - 2) {
+    font-size: 1em;
   }
 }

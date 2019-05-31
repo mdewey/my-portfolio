@@ -16,17 +16,6 @@ $dark-text: #212121;
 $light-text: $secondary-light;
 
 $body-color: $secondary-light;
-
-// old color things
-
-$bright-main: #708090;
-$dull-main: #778899;
-$dark-secondary: #696969;
-$light-secondary: #808080;
-$footer-color: #a9a9a9;
-
-$border-color: pink;
-
 $header-text-color: $secondary-light;
 /*used */
 
@@ -39,3 +28,8 @@ $dark-transparency: rgba(0, 0, 0, 0.5);
 $link-color: $secondary-light;
 $fab-button: $primary-light;
 $fab-text: $primary-text;
+
+$word-cloud-color-1: adjust-hue($primary-color, 90);
+$word-cloud-color-2: adjust-hue($primary-color, 180);
+$word-cloud-color-3: adjust-hue($primary-color, 270);
+$word-cloud-color-4: adjust-hue($primary-color, 0);
