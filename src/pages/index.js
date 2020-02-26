@@ -11,6 +11,7 @@ import ContactMe from "../components/custom/ContactMe"
 import FAB from "../components/custom/FAB"
 import Skills from "../components/custom/Skills"
 import Head from "../components/custom/Head"
+import GoogleAnalytics from "../components/custom/GoogleAnalytics"
 
 const IndexPage = () => (
   <>
@@ -23,6 +24,7 @@ const IndexPage = () => (
     <Skills />
     <ContactMe />
     <FAB />
+    <GoogleAnalytics />
   </>
 )
 
