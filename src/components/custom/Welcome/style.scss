@@ -1,0 +1,36 @@
+@import "../../../styles/variables";
+@import "../../../styles/helpers";
+
+.welcome {
+  margin: 0;
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $dark-section-background;
+    color: $header-text-color;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .welcome-message {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 95%;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .title-block {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .face-pic {
+    height: 15em;
+    width: 15em;
+    border: 0.25em $picture-border solid;
+    border-radius: 50%;
+    @extend .background-image-helper;
+  }
+}

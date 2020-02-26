@@ -1,0 +1,91 @@
+/* Palette URL: http://paletton.com/#uid=33Z0u1keTpni3mVgCnT1JdS00a5kkVJJnKGrmsHI6Fpy2Tj1ke9jOtFiKsqjI954P7v0l */
+@import url("https://fonts.googleapis.com/css?family=Arvo&display=swap");
+@import "./variables";
+@import "./helpers";
+
+body {
+  background: $body-color;
+  margin: 0;
+  padding: 0;
+  font-family: "Arvo", serif;
+  min-width: 300px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0;
+}
+.App {
+  width: 100%;
+  min-width: 300px;
+}
+
+.section {
+  background-color: $section-background;
+  margin: 1rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  header,
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $primary-color;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    h4,
+    .sub-header {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      width: 100%;
+      color: $primary-text;
+      background-color: $primary-light;
+    }
+  }
+
+  ul {
+    padding-bottom: 1em;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: $primary-light;
+    color: $primary-text;
+    height: 3em;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    nav,
+    a {
+      @extend .uppercase;
+      color: $dark-text;
+      i {
+        padding-right: 0.25em;
+      }
+    }
+  }
+}
+
+.contact-info.sub-section {
+  text-align: center;
+}
+
+.contact-button {
+  width: 100%;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  i {
+    padding-right: 0.5em;
+  }
+}

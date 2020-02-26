@@ -1,0 +1,63 @@
+@import "../../../styles/variables";
+@import "../../../styles/helpers";
+
+$li-second-color: $primary-dark;
+$li-main-color: $secondary-light;
+
+.core-values {
+  ul {
+    list-style: none;
+    display: flex;
+
+    flex-wrap: wrap;
+    padding: 0;
+    .list-item {
+      flex-basis: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: $li-second-color;
+      background-color: $li-main-color;
+      height: 10rem;
+      i {
+        font-size: 2.5em;
+      }
+      span {
+        text-align: left;
+      }
+    }
+    .list-item.mobile-highlight {
+      color: $li-second-color;
+      background-color: $li-main-color;
+    }
+    .list-item.desktop-highlight {
+      color: $li-main-color;
+      background-color: $li-second-color;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .core-values {
+    ul {
+      display: flex;
+      flex-direction: column;
+      .filler {
+        display: none !important;
+      }
+      .list-item {
+        padding: 2rem;
+        height: initial;
+      }
+      .list-item.desktop-highlight {
+        color: $li-second-color;
+        background-color: $li-main-color;
+      }
+      .list-item.mobile-highlight {
+        color: $li-main-color;
+        background-color: $li-second-color;
+      }
+    }
+  }
+}

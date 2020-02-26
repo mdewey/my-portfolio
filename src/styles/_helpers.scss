@@ -1,0 +1,13 @@
+.background-image-helper {
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100%;
+}
+
+.btn-link,
+a {
+  color: $link-color;
+  font-weight: 1000;
+  font-kerning: 10;
+  text-decoration: underline;
+}

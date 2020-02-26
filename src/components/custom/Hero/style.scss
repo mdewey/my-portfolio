@@ -1,0 +1,35 @@
+@import "../../../styles/variables";
+@import "../../../styles/helpers";
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $light-text;
+}
+
+.just-contact {
+  @extend .btn-link;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hero {
+  @extend .background-image-helper;
+  height: 16em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark-transparency;
+  width: 100%;
+}
