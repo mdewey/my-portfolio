@@ -1,12 +1,12 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-
+import favIcon from "../../../images/favicon.ico"
 const head = () => {
   return (
     <Helmet>
       <meta name="theme-color" content="#42447F" />
       <meta charSet="utf-8" />
-      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="shortcut icon" href={favIcon} />
       <link
         href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet"
