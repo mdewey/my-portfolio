@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `'Mark Dewey's Portfolio'`,
-    description: `Mark Dewey is rad.`,
+    description: `Mark Dewey is a pretty rad developer.`,
     author: `Mark Dewey`,
   },
   plugins: [

@@ -74,7 +74,7 @@ function SEO({ description, lang, meta, title }) {
 
 SEO.defaultProps = {
   lang: `en`,
-  meta: [],
+  meta: ["software", "developer", "for hire", "lead", "senior"],
   description: `Checkout Mark. He is rad.`,
   title: "Mark Dewey",
 }
