@@ -4,10 +4,9 @@ import { Helmet } from "react-helmet"
 const head = () => {
   return (
     <Helmet>
+      <meta name="theme-color" content="#42447F" />
       <meta charSet="utf-8" />
-      <title>My Title</title>
-      <link rel="canonical" href="http://mysite.com/example" />
-      <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+      <link rel="shortcut icon" href="/favicon.ico" />
       <link
         href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet"

@@ -15,7 +15,7 @@ import Head from "../components/custom/Head"
 const IndexPage = () => (
   <>
     <Head />
-    <SEO title="Home" />
+    <SEO />
     <Hero />
     <AboutMe />
     <CoreValues />
