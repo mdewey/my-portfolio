@@ -8,7 +8,6 @@ import AboutMe from "../components/custom/Welcome"
 import CoreValues from "../components/custom/CoreValues"
 import CurrentTech from "../components/custom/CurrentTech"
 import ContactMe from "../components/custom/ContactMe"
-import FAB from "../components/custom/FAB"
 import Skills from "../components/custom/Skills"
 import Head from "../components/custom/Head"
 
@@ -22,7 +21,6 @@ const IndexPage = () => (
     <CurrentTech />
     <Skills />
     <ContactMe />
-    <FAB />
   </>
 )
 
