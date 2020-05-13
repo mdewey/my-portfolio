@@ -52,7 +52,7 @@ export default function ContactMe() {
         </li>
         <li>
           <a
-            href="https://resume.markdewey.dev"
+            href="https://resume.markdewey.dev?slim=true"
             target="_blank"
             rel="noopener noreferrer"
           >
