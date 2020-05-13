@@ -10,7 +10,7 @@ const data = [
   },
   {
     text: "NodeJS",
-    value: 700,
+    value: 70,
   },
   {
     text: "Python",
