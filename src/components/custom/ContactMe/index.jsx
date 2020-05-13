@@ -1,5 +1,5 @@
-import React from 'react'
-import './style.scss'
+import React from "react"
+import "./style.scss"
 
 export default function ContactMe() {
   return (
@@ -15,9 +15,9 @@ export default function ContactMe() {
           </a>
         </li>
         <li>
-          <a href="tel:4123862294">
+          <a href="tel:814-421-9298">
             <i className="material-icons">phone</i>
-            <span>(412) 368-2294</span>
+            <span>(814) 421-9298</span>
           </a>
         </li>
         <li>
@@ -52,7 +52,7 @@ export default function ContactMe() {
         </li>
         <li>
           <a
-            href="https://mdewey.github.io/resume/"
+            href="https://resume.markdewey.dev"
             target="_blank"
             rel="noopener noreferrer"
           >

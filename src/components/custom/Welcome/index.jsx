@@ -1,11 +1,11 @@
-import React from 'react'
-import './style.scss'
-import CurrentStatus from '../CurrentStatus'
+import React from "react"
+import "./style.scss"
+import CurrentStatus from "../CurrentStatus"
 
-import ProgressiveImage from 'react-progressive-image'
+import ProgressiveImage from "react-progressive-image"
 
-import mainImage from './images/Mark-5.jpg'
-import lightImage from './images/Mark-5.light.jpg'
+import mainImage from "./images/Mark-5.jpg"
+import lightImage from "./images/Mark-5.light.jpg"
 
 export default function AboutMe() {
   return (
@@ -24,7 +24,7 @@ export default function AboutMe() {
                 <h1>Hello!</h1>
                 <h1>My name is Mark.</h1>
                 <h1>
-                  I am a software engineer that focuses on people over product.{' '}
+                  I am a software engineer who focuses on people over product.{" "}
                 </h1>
               </section>
               <CurrentStatus />
