@@ -32,16 +32,6 @@ export default function ContactMe() {
         </li>
         <li>
           <a
-            href="https://twitter.com/juggler2009"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-twitter" />
-            <span>@juggler2009</span>
-          </a>
-        </li>
-        <li>
-          <a
             href="slack://user?team=T03QUJQ7L&id=U09LRHQQ3"
             target="_blank"
             rel="noopener noreferrer"

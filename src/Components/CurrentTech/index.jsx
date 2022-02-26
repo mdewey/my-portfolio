@@ -13,7 +13,7 @@ export default function CurrentTech() {
         </section>
 
         <section className="current-skill dot-net">
-          <i className="devicon-vuejs-plain-wordmark white" />
+          <i className="devicon-docker-plain-wordmark white" />
         </section>
 
         <section className="current-skill node-js">
@@ -27,7 +27,7 @@ export default function CurrentTech() {
         </section>
 
         <section className="current-skill">
-          <i className="devicon-amazonwebservices-plain-wordmark white" />
+          <i className="devicon-typescript-plain white" />
         </section>
       </section>
       <footer>
