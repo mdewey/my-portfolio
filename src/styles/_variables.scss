@@ -29,7 +29,7 @@ $link-color: $secondary-light;
 $fab-button: $primary-light;
 $fab-text: $primary-text;
 
-$word-cloud-color-1: adjust-hue($primary-color, 90);
-$word-cloud-color-2: adjust-hue($primary-color, 180);
-$word-cloud-color-3: adjust-hue($primary-color, 270);
-$word-cloud-color-4: adjust-hue($primary-color, 0);
+$word-cloud-color-1: adjust-hue($primary-dark, 0);
+$word-cloud-color-2: adjust-hue($primary-dark, 0);
+$word-cloud-color-3: adjust-hue($primary-dark, 0);
+$word-cloud-color-4: adjust-hue($primary-dark, 0);

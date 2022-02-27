@@ -1,6 +1,5 @@
-import React from 'react'
+import React,{useState, useEffect, useRef, useCallback} from 'react'
 import './style.scss'
-import Dimensions from 'react-dimensions'
 import WordCloud from 'react-d3-cloud'
 
 const data = [
@@ -10,7 +9,7 @@ const data = [
   },
   {
     text: 'NodeJS',
-    value: 100
+    value: 75
   },
   {
     text: 'Python',
@@ -70,11 +69,11 @@ const data = [
   },
   {
     text: 'Docker',
-    value: 50
+    value: 75
   },
   {
     text: 'Jade',
-    value: 40
+    value: 20
   },
   {
     text: 'Handlebars',
@@ -86,7 +85,7 @@ const data = [
   },
   {
     text: 'React',
-    value: 40
+    value: 80
   },
   {
     text: 'VueJS',
@@ -118,7 +117,7 @@ const data = [
   },
   {
     text: 'SASS',
-    value: 60
+    value: 75
   },
   {
     text: 'NUnit',
@@ -158,7 +157,7 @@ const data = [
   },
   {
     text: 'Test Driven Development',
-    value: 60
+    value: 90
   },
   {
     text: 'Requirement Driven Development',
@@ -304,30 +303,56 @@ const data = [
   }
 ]
 
-const fontSizeMapper = word => Math.log2(word.value) * 5
 
-class Skills extends React.Component {
-  render() {
+const Skills = () => {
+    const fontSizeMapper = useCallback(word => Math.log2(word.value) * 3, [])
+    const [height, setHeight] = useState(0);
+    const [width, setWidth] = useState(0);
+    const elementRef = useRef(null);
+    const updateSize = useCallback(() => {
+      const newWidth = elementRef.current.clientWidth;
+      setWidth(newWidth);
+
+      const newHeight = elementRef.current.clientHeight;
+      setHeight(newHeight);
+    }, []);
+
+    useEffect(() => {
+      window.addEventListener("resize", updateSize);
+      updateSize();
+    }, [updateSize]);
+
     return (
       <section className="section" id="buzzwords">
         <header>
           <h2>My Buzzwords</h2>
         </header>
-        <section className="word-cloud" id="wordCloud">
+        <section className="word-cloud" id="wordCloud" >
           <div
-            containerWidth={this.props.containerWidth}
-            containerHeight={this.props.containerHeight}
+            ref={elementRef}
+            style={{
+              width: '100%', 
+              margin: '1rem'
+              }}
           >
             <WordCloud
               data={data}
-              fontSizeMapper={fontSizeMapper}
-              width={this.props.containerWidth - 25}
+              fontSize={fontSizeMapper}
+              width={width}
+              height={height}
+              rotate={() => 0}
+              padding={5}
             />
           </div>
         </section>
+        <footer>
+          <a href="https://resume.markdewey.dev/#skills" target={"_blank"} rel="noreferrer">
+             full list of skills
+          </a>
+        </footer>
       </section>
     )
-  }
 }
 
-export default Dimensions()(Skills) // Enhanced component
+// export default Dimensions()(Skills) 
+export default Skills;
